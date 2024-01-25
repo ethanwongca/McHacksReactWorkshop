@@ -108,8 +108,16 @@ const Loading = () =>{
 export default Loading
 ```
 >[!CAUTION]
-> Be **careful** with your paths, as this is a major way for your React app not working.
+> Be **careful** with your paths, as this is a major way for your React app not working. <br/>
 
+### Designing the Website 
+We still use CSS to design the website. Here is an example CSS file. <br/>
+```
+/* To design certain components in React */
+body {
+
+}
+```
 **Good luck with your projects at McHacks 11! We hope you enjoyed our workshop!**
 
 ## Resources Available 
