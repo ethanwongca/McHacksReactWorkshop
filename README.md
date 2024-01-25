@@ -4,7 +4,8 @@ The slides for the workshops are accessible through this link: <br/>
 https://docs.google.com/presentation/d/1k6j8V6mCiauWRhYFgynjDa_vyWBY72ruva6FOAzMkeA/edit?usp=sharing <br/>
 This documentation will help you navigate through this intergactive workshop, so let's get started! <br/>
 > [!IMPORTANT]
-> This workshop is aimed towards beginners in React, however all are welcomed!
+> This workshop is aimed towards beginners in React.js , however all are welcomed!
+> If you have trouble following allowing to the live programming you can refer to the final result in the documentation
 
 ## What to Install
 Before we start please dowloaded Microsoft Visual Studio Code <br/>
@@ -101,7 +102,7 @@ export default Loading
 >[!CAUTION]
 > Be **careful** with your paths, as this is a major way for your React app not working
 
-**Have fun in your programming journey!**
+**Good luck with your projects at McHacks 11! We hope you enjoyed your workshop!**
 
 ## Resources Available 
 <img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/3aa025c8-55fd-416d-a84f-40037069a729" width="50">
