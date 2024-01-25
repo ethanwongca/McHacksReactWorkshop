@@ -11,7 +11,7 @@ This documentation will help you navigate through this intergactive workshop, so
 Before we start please dowloaded **Microsoft Visual Studio Code**. <br/>
 The download link is the following: https://code.visualstudio.com/download <br/>
 ### Node Installation
-Next you may have to install Node.js to do so please use this link: https://nodejs.org/en <br/>
+Next you may have to install **Node.js** to do so please use this link: https://nodejs.org/en <br/>
 > [!NOTE]
 > You may have Node.js already installed on your computer, please check via this command:
 ```
@@ -38,7 +38,7 @@ npm start
 
 ### React Project Setup
 **Congratualtions!** you fully installed React and setup your project. Now let's start coding! <br/>
-Let's first look at the file index.html, here is what we need to do in index.html to setup our project properly.<br/>
+Let's first look at the file **index.html**, here is what we need to do in index.html to setup our project properly.<br/>
 > [!NOTE]
 > If you have never seen HTML before, here is a link to teach you! <br/>
 > McHacksxCSUS HTML and CSS Workshop: https://github.com/ethanwongca/CSUSxMcHacksWebDev
@@ -59,8 +59,8 @@ Let's first look at the file index.html, here is what we need to do in index.htm
   </body>
 </html>
 ```
-Now let's look at the main.jsx file, notice how there is not much code, most of the code will be in App.jsx which will have all the React components! <br/>
-The prupose of main.jsx is to render the whole project!
+Now let's look at the **main.jsx** file, notice how there is not much code, most of the code will be in App.jsx which will have all the React components! <br/>
+The purpose of main.jsx is to render the whole project!
 ```
 import React from 'react';
 
@@ -75,7 +75,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ```
 App.jsx stores all the components and serves to structure each component properly <br/>
-In bigger website projects App.jsx contains all the possible pages of the website, and a website.jsx stores the components<br/>>
+In bigger website projects **App.jsx** contains all the possible pages of the website, and a website.jsx stores the components<br/>>
 [!TIP]
 > A react component can be a button, navigation bar, or even a loading screen! <br/>
 > The intention of components is so that you can re-use elements in a website. <br/>
