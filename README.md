@@ -30,8 +30,10 @@ To view your project, once it is finished the following command is <br/>
 ```
 npm start
 ```
+## Project Setup
+
 ### React Project Setup
-Congratualtion you fully installed React and setup your project. Now let's start coding <br/>
+**Congratualtions!** you fully installed React and setup your project. Now let's start coding <br/>
 Let's first look at the file index.html, here is what we need to do in index.html to setup our project properly.
 ```
 <!DOCTYPE html>
@@ -41,7 +43,7 @@ Let's first look at the file index.html, here is what we need to do in index.htm
     <link rel="icon" href="<path_to_the_favicon_you_want>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> <Websit_Title_Insert_Here> </title>
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css"> <!-- if you want to link a style sheet, (get a font that is not apart of the basic fonts in this case inter) -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css"> <!-- if you want to link a style sheet -->
   </head>
   <body>
     <div id="root"></div>
@@ -49,5 +51,5 @@ Let's first look at the file index.html, here is what we need to do in index.htm
   </body>
 </html>
 ```
-
+color testing The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
