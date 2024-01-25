@@ -18,27 +18,31 @@ Next you may have to install Node.js to do so please use this link: https://node
 npm --version
 ```
 ### React Installation / Bash Commands Needed
-We will then install react using this command  <br/>
+We will then install react using this command:  <br/>
 ```
 npm install -g create-react-app
 ```
-To create our first app run the following command  <br/>
+To create our first app run the following command:  <br/>
 ```
 npx create-react-app <name_of_react_app>
 ```
-Then navigate to the project server using the following bash command  <br/>
+Then navigate to the project server using the following bash command:  <br/>
 ```
 cd <name_of_react_app>
 ```
-To view your project, once it is finished the following command is <br/>
+To view your project, once it is finished the following command is: <br/>
 ```
 npm start
 ```
 ## Project Setup
 
 ### React Project Setup
-**Congratualtions!** you fully installed React and setup your project. Now let's start coding <br/>
+**Congratualtions!** you fully installed React and setup your project. Now let's start coding! <br/>
 Let's first look at the file index.html, here is what we need to do in index.html to setup our project properly.<br/>
+> [!NOTE]
+> If you have never seen HTML before, here is a link for a McHacksxCSUS HTML and CSS Workshop <br/>
+> https://github.com/ethanwongca/CSUSxMcHacksWebDev
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -71,7 +75,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ```
 App.jsx stores all the components, a component could be a button or a navigation bar, and contains code just to create a button. <br/>
-Here is what App.jsx looks like, we put the components in JSX
+Here is what App.jsx looks like, we put the components in JSX.
 ```
 import component from '<path_to_component>';
 //if you have more than one component in your component folder you can do
@@ -85,7 +89,7 @@ function App() {
 
 export default App;
 ```
-Here is an example component
+Here is an example component.
 ```
 import {loading} from '../assets';
 
@@ -100,7 +104,7 @@ const Loading = () =>{
 export default Loading
 ```
 >[!CAUTION]
-> Be **careful** with your paths, as this is a major way for your React app not working
+> Be **careful** with your paths, as this is a major way for your React app not working.
 
 **Good luck with your projects at McHacks 11! We hope you enjoyed your workshop!**
 
