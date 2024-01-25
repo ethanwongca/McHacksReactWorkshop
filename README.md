@@ -51,7 +51,7 @@ Let's first look at the file index.html, here is what we need to do in index.htm
   </body>
 </html>
 ```
-Now let's look at the main.jsx file, notice how there is not much code, most of the code will be in App.jsx which will have all the components! <br\>
+Now let's look at the main.jsx file, notice how there is not much code, most of the code will be in App.jsx which will have all the components! <br/>
 The prupose of main.jsx is to render the whole project!
 ```
 import React from 'react';
@@ -66,8 +66,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 ```
-App.jsx stores all the components, a component could be a button or a navigation bar, and contains code just to create a button. <br\>
-Here is what App.jsx looks like, we put the components in Jsx
+App.jsx stores all the components, a component could be a button or a navigation bar, and contains code just to create a button. <br/>
+Here is what App.jsx looks like, we put the components in JSX
 ```
 import component from '<path_to_component>';
 //if you have more than one component in your component folder you can do
