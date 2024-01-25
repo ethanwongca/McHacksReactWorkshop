@@ -76,7 +76,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ```
 App.jsx stores all the components and serves to structure each component properly <br/>
 In bigger website projects **App.jsx** contains all the possible pages of the website, and a website.jsx stores the components<br/>>
-[!TIP]
+> [!TIP]
 > A react component can be a button, navigation bar, or even a loading screen! <br/>
 > The intention of components is so that you can re-use elements in a website. <br/>
 Here is what App.jsx looks like, we put the components in JSX.
