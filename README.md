@@ -1,14 +1,17 @@
 # McHacks Introduction React Workshop
-Welcome to McHacks Introduction React Workshop! <br/>
+**Welcome to McHacks Introduction React Workshop!** <br/>
 The slides for the workshops are accessible through this link: <br/>
 This documentation will help you navigate through this intergactive workshop, so let's get started! <br/>
+> [!IMPORTANT]
+> This workshop is aimed towards beginners in React, however all are welcomed!
 
 ## What to Install
 Before we start please dowloaded Microsoft Visual Studio Code <br/>
 The download link is the following: https://code.visualstudio.com/download <br/>
 ### Node Installation
 Next you may have to install Node.js to do so please use this link: https://nodejs.org/en <br/>
-To check if you have Node.js on your computer already check via this command in terminal <br/>
+> [!NOTE]
+> You may have Node.js already installed on your computer, check via this command
 ```
 npm --version
 ```
