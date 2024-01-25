@@ -5,7 +5,7 @@ https://docs.google.com/presentation/d/1k6j8V6mCiauWRhYFgynjDa_vyWBY72ruva6FOAzM
 This documentation will help you navigate through this intergactive workshop, so let's get started! <br/>
 > [!IMPORTANT]
 > This workshop is aimed towards beginners in React.js, however all are welcomed! <br/>
-> If you have trouble following allowing to the live programming you can refer to the final result in the documentation
+> If you have trouble following to the live programming you can refer to the final result in the documentation
 
 ## What to Install
 Before we start please dowloaded Microsoft Visual Studio Code <br/>
