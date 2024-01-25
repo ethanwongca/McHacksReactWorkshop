@@ -1,6 +1,7 @@
 # McHacks Introduction React Workshop   <img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/ca8bc3ea-1308-43b8-978e-17bfa6a1c78d" width="50" height="50">
 **Welcome to McHacks Introduction React Workshop!** <br/>
 The slides for the workshops are accessible through this link: <br/>
+https://docs.google.com/presentation/d/1k6j8V6mCiauWRhYFgynjDa_vyWBY72ruva6FOAzMkeA/edit?usp=sharing
 This documentation will help you navigate through this intergactive workshop, so let's get started! <br/>
 > [!IMPORTANT]
 > This workshop is aimed towards beginners in React, however all are welcomed!
