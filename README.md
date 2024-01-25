@@ -1,4 +1,4 @@
-# McHacks Introduction React Workshop <img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/ca8bc3ea-1308-43b8-978e-17bfa6a1c78d" width="25" height="25">
+# McHacks Introduction React Workshop   <img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/ca8bc3ea-1308-43b8-978e-17bfa6a1c78d" width="30" height="30">
 **Welcome to McHacks Introduction React Workshop!** <br/>
 The slides for the workshops are accessible through this link: <br/>
 This documentation will help you navigate through this intergactive workshop, so let's get started! <br/>
