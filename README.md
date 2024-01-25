@@ -1,19 +1,19 @@
-# <img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/ca8bc3ea-1308-43b8-978e-17bfa6a1c78d" width="50" height="50"> McHacks Introduction React Workshop   
-**Welcome to McHacks Introduction React Workshop!** <br/>
+# <img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/ca8bc3ea-1308-43b8-978e-17bfa6a1c78d" width="50" height="50"> McHacks Introduction to React Workshop   
+**Welcome to McHacks Introduction to React Workshop!** <br/>
 The slides for the workshops are accessible through this link: <br/>
 https://docs.google.com/presentation/d/1k6j8V6mCiauWRhYFgynjDa_vyWBY72ruva6FOAzMkeA/edit?usp=sharing <br/>
 This documentation will help you navigate through this intergactive workshop, so let's get started! <br/>
 > [!IMPORTANT]
 > This workshop is aimed towards beginners in React.js, however all are welcomed! <br/>
-> If you have trouble following to the live programming you can refer to the final result in the documentation
+> If you have trouble following the live programming you can refer to the final result in the documentation.
 
 ## What to Install
-Before we start please dowloaded Microsoft Visual Studio Code <br/>
+Before we start please dowloaded Microsoft Visual Studio Code. <br/>
 The download link is the following: https://code.visualstudio.com/download <br/>
 ### Node Installation
 Next you may have to install Node.js to do so please use this link: https://nodejs.org/en <br/>
 > [!NOTE]
-> You may have Node.js already installed on your computer, check via this command
+> You may have Node.js already installed on your computer, please check via this command:
 ```
 npm --version
 ```
@@ -26,11 +26,11 @@ To create our first app run the following command:  <br/>
 ```
 npx create-react-app <name_of_react_app>
 ```
-Then navigate to the project server using the following bash command:  <br/>
+Then navigate to the project folder using the following bash command:  <br/>
 ```
 cd <name_of_react_app>
 ```
-To view your project, once it is finished the following command is: <br/>
+To view your project, once it is finished type the following command: <br/>
 ```
 npm start
 ```
@@ -59,7 +59,7 @@ Let's first look at the file index.html, here is what we need to do in index.htm
   </body>
 </html>
 ```
-Now let's look at the main.jsx file, notice how there is not much code, most of the code will be in App.jsx which will have all the components! <br/>
+Now let's look at the main.jsx file, notice how there is not much code, most of the code will be in App.jsx which will have all the React components! <br/>
 The prupose of main.jsx is to render the whole project!
 ```
 import React from 'react';
@@ -74,7 +74,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 ```
-App.jsx stores all the components, a component could be a button or a navigation bar, and contains code just to create a button. <br/>
+App.jsx stores all the components and serves to structure each component properly <br/>
+In bigger website projects App.jsx contains all the possible pages of the website, and a website.jsx stores the components<br/>
+[!TIP]
+> A react component can be a button, navigation bar, or even a loading screen! <br/>
+> The intention of components is so that you can re-use elements in a website. <br/>
 Here is what App.jsx looks like, we put the components in JSX.
 ```
 import component from '<path_to_component>';
@@ -106,7 +110,7 @@ export default Loading
 >[!CAUTION]
 > Be **careful** with your paths, as this is a major way for your React app not working.
 
-**Good luck with your projects at McHacks 11! We hope you enjoyed your workshop!**
+**Good luck with your projects at McHacks 11! We hope you enjoyed our workshop!**
 
 ## Resources Available 
 <img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/3aa025c8-55fd-416d-a84f-40037069a729" width="50">
