@@ -1,6 +1,5 @@
 # McHacks Introduction React Workshop
 Welcome to McHacks Introduction React Workshop! <br/>
-<br/>
 The slides for the workshops are accessible through this link: <br/>
 This documentation will help you navigate through this intergactive workshop, so let's get started! <br/>
 
