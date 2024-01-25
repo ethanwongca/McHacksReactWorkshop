@@ -40,8 +40,8 @@ npm start
 **Congratualtions!** you fully installed React and setup your project. Now let's start coding! <br/>
 Let's first look at the file index.html, here is what we need to do in index.html to setup our project properly.<br/>
 > [!NOTE]
-> If you have never seen HTML before, here is a link for a McHacksxCSUS HTML and CSS Workshop <br/>
-> https://github.com/ethanwongca/CSUSxMcHacksWebDev
+> If you have never seen HTML before, here is a link to teach you! <br/>
+> McHacksxCSUS HTML and CSS Workshop: https://github.com/ethanwongca/CSUSxMcHacksWebDev
 
 ```
 <!DOCTYPE html>
