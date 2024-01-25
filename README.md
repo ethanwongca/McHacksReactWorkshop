@@ -34,7 +34,7 @@ npm start
 
 ### React Project Setup
 **Congratualtions!** you fully installed React and setup your project. Now let's start coding <br/>
-Let's first look at the file index.html, here is what we need to do in index.html to setup our project properly.
+Let's first look at the file index.html, here is what we need to do in index.html to setup our project properly.<br/>
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -51,5 +51,52 @@ Let's first look at the file index.html, here is what we need to do in index.htm
   </body>
 </html>
 ```
-color testing The background color is `#ffffff` for light mode and `#000000` for dark mode.
+Now let's look at the main.jsx file, notice how there is not much code, most of the code will be in App.jsx which will have all the components! <br\>
+The prupose of main.jsx is to render the whole project!
+```
+import React from 'react';
 
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+```
+App.jsx stores all the components, a component could be a button or a navigation bar, and contains code just to create a button. <br\>
+Here is what App.jsx looks like, we put the components in Jsx
+```
+import component from '<path_to_component>';
+//if you have more than one component in your component folder you can do
+import {component1, component2} from '<path_to_component>';
+
+function App() {
+  return (
+    <component /> 
+  )
+}
+
+export default App;
+```
+Here is an example component
+```
+import {loading} from '../assets';
+
+const Loading = () =>{
+    return( 
+    <div className="loading-container">
+    <img src={loading} alt="loading" className="loading-gif"/>
+    </div>
+    )
+}
+
+export default Loading
+```
+
+**Have fun in your programming journey!**
+
+## Resources Available 
+Documentation for JavaScript, React, HTML, and CSS: https://developer.mozilla.org/en-US/
