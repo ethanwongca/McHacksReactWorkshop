@@ -121,7 +121,7 @@ body {
 **Good luck with your projects at McHacks 11! We hope you enjoyed our workshop!**
 
 ## Resources Available 
-<img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/3aa025c8-55fd-416d-a84f-40037069a729" width="50">
+<img src="https://github.com/ethanwongca/McHacksReactWorkshop/assets/87055387/3aa025c8-55fd-416d-a84f-40037069a729" width="35">
 Documentation for JavaScript, React, HTML, and CSS: https://developer.mozilla.org/en-US/
 
 
