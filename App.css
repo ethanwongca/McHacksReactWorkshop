@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@1,200&display=swap');
+
+.App {
+  text-align: center;
+  background-color: azure;
+  width: 100vw;
+}
+
+h1 {
+  font-family: 'DM Sans';
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px; 
+}
+
+h2 {
+  font-family: 'Poppins';
+  margin-top: 0px;
+  padding: 0px; 
+  margin-left: 30px;
+}

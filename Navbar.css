@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: #D23C2F;
+    font-family: 'DM Sans';
+    width: 100vw;
+}
+  
+.navbar-logo svg {
+    transform: scaleX(-0.9) rotate(-30deg);
+    transition: 0.5s;
+}
+
+.spinner:hover {
+    transform: scaleX(-0.9) rotate(-50deg);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+/* Hover effect */
+.nav-item:hover {
+    color: #ff9900;
+}
