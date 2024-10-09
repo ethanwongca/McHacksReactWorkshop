@@ -60,7 +60,7 @@ Let's first look at the file **index.html**, here is what we need to do in index
 </html>
 ```
 Now let's look at the **index.js** file, notice how there is not much code, most of the code will be in App.jsx which will have all the React components! <br/>
-The purpose of main.jsx is to render the whole project!
+The purpose of index.js is to render the whole project!
 ```
 import React from 'react';
 
